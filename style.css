@@ -1,0 +1,299 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+        }
+        header {
+            background-color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 90px;
+            margin-right: 10px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .green-bg {
+            background-color: #8cc63f;
+        }
+        
+        
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 70px;
+
+    }
+    .card {
+        background-color: #333;
+        color: white;
+        width: 30%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .card h2 {
+        margin-top: 0;
+    }
+    .card p {
+        color: #aaa;
+    }
+    .card .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #8cc63f;
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    
+    .container1 {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+      
+    }
+
+   .main-content {
+        flex: 1;
+            & h2 {
+                 color: #ddd;
+               margin-left: 100px;
+                   }
+                 }
+
+.sidebar{
+    flex: 1;
+    color: white;
+    & h2 {
+        margin-inline-start: 50px;
+        }
+}
+.sidebar2 {
+
+flex: 1;
+ color: white;
+
+}
+
+.featured-post, .post {
+margin-bottom: 70px;
+}
+.subcont {
+margin-left: 100px;
+color: white;
+}
+
+.image-placeholder {
+background-color: #ddd;
+background-image: url(images/v904-nunny-012.jpg);
+background-size: cover;
+height: 300px;
+width: 70%;
+margin-left: 100px;
+margin-bottom: 10px;
+}
+
+.thumbnail {
+background-image: url(images/v904-nunny-012.jpg);
+background-size: cover;
+height: 100px;
+margin-inline-start: 50px;
+}
+
+.post {
+display: flex;
+gap: 20px;
+}
+
+.post-info {
+margin-top: 20px;
+}
+
+.post .thumbnail {
+flex: 0 0 100px;
+
+}
+
+.read-more {
+display: inline-block;
+padding: 5px 10px;
+background-color: #4CAF50;
+color: white;
+text-decoration: none;
+border-radius: 3px;
+}
+
+#cont1 .container1 {
+    flex-direction: row;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    & h1 {
+        text-align: center;
+        color: #333;
+    }
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-image {
+    height: 200px;
+    background-color: #333;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.card2:first-child {
+    background-color: #ffa500;
+}
+
+.card2:last-child {
+    background-color: #00bfff;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+}
+
+
+.container2{
+    display: inline-block;
+    margin-top: -20px;
+    padding: 70px;
+    
+}
+
+.container2 {
+    & h1{
+        color: white;
+    }
+    & p {
+        color: white;
+    }
+    
+}
+---  
+.footer {
+    background-color:black;
+    color:white;
+   margin-top: auto;
+    padding: 100px;
+  }
+  
+  .footer-content {
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  h3 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  input[type="email"] {
+    flex: 1;
+    padding: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .copyright {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 0.8em;
+  }
